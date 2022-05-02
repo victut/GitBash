@@ -1,29 +1,29 @@
-Как отправить ДЗ на проверку.
- 1. Создайте текстоовый файл как в первом ДЗ по Terminal.
- 2. Сценарий перенесите в этот файл.
- 3. На против каждого действия - напишите команду в GitBash
+ РљР°Рє РѕС‚РїСЂР°РІРёС‚СЊ Р”Р— РЅР° РїСЂРѕРІРµСЂРєСѓ.
+ 1. РЎРѕР·РґР°Р№С‚Рµ С‚РµРєСЃС‚РѕРІС‹Р№ С„Р°Р№Р» РєР°Рє РІ РїРµСЂРІРѕРј Р”Р— РїРѕ Terminal.
+ 2. РЎС†РµРЅР°СЂРёР№ РїРµСЂРµРЅРµСЃРёС‚Рµ РІ СЌС‚РѕС‚ С„Р°Р№Р».
+ 3. РќР° РїСЂРѕС‚РёРІ РєР°Р¶РґРѕРіРѕ РґРµР№СЃС‚РІРёСЏ - РЅР°РїРёС€РёС‚Рµ РєРѕРјР°РЅРґСѓ РІ GitBash
 
-JSON
+***JSON***
 
- 4. Создать внешний репозиторий c названием JSON. === https://github.com/victut?tab=repositories -> New -> Repository name "JSON" -> Create repository
- 5. Клонировать репозиторий JSON на локальный компьютер. === git clone https://github.com/victut/JSON.git
- 6. Внутри локального JSON создать файл “new.json”. === cd JSON/ -> vim new.json  
- 7. Добавить файл под гит. === git add new.json
- 8. Закоммитить файл. === git commit -m "Create new.json"
- 9. Отправить файл на внешний GitHub репозиторий. === git push
- 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON. === vim new.json
--> {
-        "firstName" : "Victoria",
-        "lastName": "Tutaeva",
-        "patronymic" : "Vasilevna",
-        "age" : 33,
-        "pet" : 0,
-        "futureDesiredSalary" : "1500$"
-}
+ 4. **РЎРѕР·РґР°С‚СЊ РІРЅРµС€РЅРёР№ СЂРµРїРѕР·РёС‚РѕСЂРёР№ c РЅР°Р·РІР°РЅРёРµРј JSON.** === **``https://github.com/victut?tab=repositories -> New -> Repository name "JSON" -> Create repository``**
+ 5. **РљР»РѕРЅРёСЂРѕРІР°С‚СЊ СЂРµРїРѕР·РёС‚РѕСЂРёР№ JSON РЅР° Р»РѕРєР°Р»СЊРЅС‹Р№ РєРѕРјРїСЊСЋС‚РµСЂ.** === **``git clone https://github.com/victut/JSON.git``**
+ 6. **Р’РЅСѓС‚СЂРё Р»РѕРєР°Р»СЊРЅРѕРіРѕ JSON СЃРѕР·РґР°С‚СЊ С„Р°Р№Р» вЂњnew.jsonвЂќ.** === **``cd JSON/ -> vim new.json``**  
+ 7. **Р”РѕР±Р°РІРёС‚СЊ С„Р°Р№Р» РїРѕРґ РіРёС‚.** === **``git add new.json``**
+ 8. **Р—Р°РєРѕРјРјРёС‚РёС‚СЊ С„Р°Р№Р».** === **``git commit -m "Create new.json"``**
+ 9. **РћС‚РїСЂР°РІРёС‚СЊ С„Р°Р№Р» РЅР° РІРЅРµС€РЅРёР№ GitHub СЂРµРїРѕР·РёС‚РѕСЂРёР№.** === **``git push``**
+ 10. **РћС‚СЂРµРґР°РєС‚РёСЂРѕРІР°С‚СЊ СЃРѕРґРµСЂР¶Р°РЅРёРµ С„Р°Р№Р»Р° вЂњnew.jsonвЂќ - РЅР°РїРёСЃР°С‚СЊ РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ СЃРµР±Рµ (Р¤РРћ, РІРѕР·СЂР°СЃС‚, РєРѕР»РёС‡РµСЃС‚РІРѕ РґРѕРјР°С€РЅРёС… Р¶РёРІРѕС‚РЅС‹С…, Р±СѓРґСѓС‰Р°СЏ Р¶РµР»Р°РµРјР°СЏ Р·Р°СЂРїР»Р°С‚Р°). Р’СЃС‘ РЅР°РїРёСЃР°С‚СЊ РІ С„РѕСЂРјР°С‚Рµ JSON.** === vim new.json ->  
+    	{
+    	"firstName" : "Victoria",
+    	"lastName": "Tutaeva",
+    	"patronymic" : "Vasilevna",
+    	"age" : 33,
+    	"pet" : 0,
+    	"futureDesiredSalary" : "1500$"
+    	} 
 
- 11. Отправить изменения на внешний репозиторий. === git commit -am "modified new.json" -> git push
- 12. Создать файл preferences.json === vim preferences.json 
- 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON. ===
+ 11. РћС‚РїСЂР°РІРёС‚СЊ РёР·РјРµРЅРµРЅРёСЏ РЅР° РІРЅРµС€РЅРёР№ СЂРµРїРѕР·РёС‚РѕСЂРёР№. === git commit -am "modified new.json" -> git push
+ 12. РЎРѕР·РґР°С‚СЊ С„Р°Р№Р» preferences.json === vim preferences.json 
+ 13. Р’ С„Р°Р№Р» preferences.json РґРѕР±Р°РІРёС‚СЊ РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ СЃРІРѕРёС… РїСЂРµРґРїРѕС‡С‚РµРЅРёСЏС… (Р›СЋР±РёРјС‹Р№ С„РёР»СЊРј, Р»СЋР±РёРјС‹Р№ СЃРµСЂРёР°Р», Р»СЋР±РёРјР°СЏ РµРґР°, Р»СЋР±РёРјРѕРµ РІСЂРµРјСЏ РіРѕРґР°, СЃС‚РѕСЂРѕРЅР° РєРѕС‚РѕСЂСѓСЋ С…РѕС‚РµР»Рё Р±С‹ РїРѕСЃРµС‚РёС‚СЊ) РІ С„РѕСЂРјР°С‚Рµ JSON. ===
 {
         "favoriteMovie" : "Lord of the Rings",
         "favoriteSeries" : "Suits",
@@ -32,14 +32,14 @@ JSON
         "countryYouWouldLikeToVisit" : "USA"
 }
 
- 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON === vim sklls.json ->
+ 14. РЎРѕР·РґР°С‚СЊ С„Р°Р№Р» sklls.json РґРѕР±Р°РІРёС‚СЊ РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ СЃРєРёР»Р»Р°С… РєРѕС‚РѕСЂС‹Рµ Р±СѓРґСѓС‚ РёР·СѓС‡РµРЅС‹ РЅР° РєСѓСЂСЃРµ РІ С„РѕСЂРјР°С‚Рµ JSON === vim sklls.json ->
 {
         "skills" : ["Git", "JavaScript", "SQL", "API", "testing theory" ]
 }
- 15. Отправить сразу 2 файла на внешний репозиторий. === git add . -> git commit -m "Created preferences.json, sklls.json" ->  git push
- 16. На веб интерфейсе создать файл bug_report.json. === add file (https://github.com/victut/JSON) -> Create new file -> JSON/bug_report.json
- 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. === commit new file
- 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON. === "edit this file" https://github.com/victut/JSON/blob/main/bug_report.json -> 
+ 15. РћС‚РїСЂР°РІРёС‚СЊ СЃСЂР°Р·Сѓ 2 С„Р°Р№Р»Р° РЅР° РІРЅРµС€РЅРёР№ СЂРµРїРѕР·РёС‚РѕСЂРёР№. === git add . -> git commit -m "Created preferences.json, sklls.json" ->  git push
+ 16. РќР° РІРµР± РёРЅС‚РµСЂС„РµР№СЃРµ СЃРѕР·РґР°С‚СЊ С„Р°Р№Р» bug_report.json. === add file (https://github.com/victut/JSON) -> Create new file -> JSON/bug_report.json
+ 17. РЎРґРµР»Р°С‚СЊ Commit changes (СЃРѕС…СЂР°РЅРёС‚СЊ) РёР·РјРµРЅРµРЅРёСЏ РЅР° РІРµР± РёРЅС‚РµСЂС„РµР№СЃРµ. === commit new file
+ 18. РќР° РІРµР± РёРЅС‚РµСЂС„РµР№СЃРµ РјРѕРґРёС„РёС†РёСЂРѕРІР°С‚СЊ С„Р°Р№Р» bug_report.json, РґРѕР±Р°РІРёС‚СЊ Р±Р°Рі СЂРµРїРѕСЂС‚ РІ С„РѕСЂРјР°С‚Рµ JSON. === "edit this file" https://github.com/victut/JSON/blob/main/bug_report.json -> 
 {
   
         "ID" : 1,
@@ -61,18 +61,18 @@ JSON
 	"Environment" : "Windows 7 x64 Google Chrome Version 96.0.4664.45, (64 bit)"
 
 }
- 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе. === Commit changes
- 20. Синхронизировать внешний и локальный репозиторий JS === git pull
+ 19. РЎРґРµР»Р°С‚СЊ Commit changes (СЃРѕС…СЂР°РЅРёС‚СЊ) РёР·РјРµРЅРµРЅРёСЏ РЅР° РІРµР± РёРЅС‚РµСЂС„РµР№СЃРµ. === Commit changes
+ 20. РЎРёРЅС…СЂРѕРЅРёР·РёСЂРѕРІР°С‚СЊ РІРЅРµС€РЅРёР№ Рё Р»РѕРєР°Р»СЊРЅС‹Р№ СЂРµРїРѕР·РёС‚РѕСЂРёР№ JS === git pull
 
 XML
 
- 21. Создать внешний репозиторий c названием XML. === https://github.com/victut?tab=repositories -> New -> Repository name "XML" -> Create repository
- 22. Клонировать репозиторий XML на локальный компьютер. === git clone https://github.com/victut/XML.git
- 23. Внутри локального XML создать файл “new.xml”. === cd XML/ ->  vim new.xml
- 24. Добавить файл под гит. === git add new.xml
- 25. Закоммитить файл. ===  git commit -m "Created new.xml"
- 26. Отправить файл на внешний GitHub репозиторий. === git push
- 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML. === vim new.xml
+ 21. РЎРѕР·РґР°С‚СЊ РІРЅРµС€РЅРёР№ СЂРµРїРѕР·РёС‚РѕСЂРёР№ c РЅР°Р·РІР°РЅРёРµРј XML. === https://github.com/victut?tab=repositories -> New -> Repository name "XML" -> Create repository
+ 22. РљР»РѕРЅРёСЂРѕРІР°С‚СЊ СЂРµРїРѕР·РёС‚РѕСЂРёР№ XML РЅР° Р»РѕРєР°Р»СЊРЅС‹Р№ РєРѕРјРїСЊСЋС‚РµСЂ. === git clone https://github.com/victut/XML.git
+ 23. Р’РЅСѓС‚СЂРё Р»РѕРєР°Р»СЊРЅРѕРіРѕ XML СЃРѕР·РґР°С‚СЊ С„Р°Р№Р» вЂњnew.xmlвЂќ. === cd XML/ ->  vim new.xml
+ 24. Р”РѕР±Р°РІРёС‚СЊ С„Р°Р№Р» РїРѕРґ РіРёС‚. === git add new.xml
+ 25. Р—Р°РєРѕРјРјРёС‚РёС‚СЊ С„Р°Р№Р». ===  git commit -m "Created new.xml"
+ 26. РћС‚РїСЂР°РІРёС‚СЊ С„Р°Р№Р» РЅР° РІРЅРµС€РЅРёР№ GitHub СЂРµРїРѕР·РёС‚РѕСЂРёР№. === git push
+ 27. РћС‚СЂРµРґР°РєС‚РёСЂРѕРІР°С‚СЊ СЃРѕРґРµСЂР¶Р°РЅРёРµ С„Р°Р№Р»Р° вЂњnew.xmlвЂќ - РЅР°РїРёСЃР°С‚СЊ РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ СЃРµР±Рµ (Р¤РРћ, РІРѕР·СЂР°СЃС‚, РєРѕР»РёС‡РµСЃС‚РІРѕ РґРѕРјР°С€РЅРёС… Р¶РёРІРѕС‚РЅС‹С…, Р±СѓРґСѓС‰Р°СЏ Р¶РµР»Р°РµРјР°СЏ Р·Р°СЂРїР»Р°С‚Р°). Р’СЃС‘ РЅР°РїРёСЃР°С‚СЊ РІ С„РѕСЂРјР°С‚Рµ XML. === vim new.xml
 
 <?xml version="1.0"?>
 <firstName>Victoria</firstName>
@@ -82,9 +82,9 @@ XML
 <pet>0</pet>
 <futureDesiredSalary>1500$</futureDesiredSalary>
 
- 28. Отправить изменения на внешний репозиторий. === git commit -am "modified new.xml" -> git push
- 29. Создать файл preferences.xml === vim preferences.xml
- 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML. ===
+ 28. РћС‚РїСЂР°РІРёС‚СЊ РёР·РјРµРЅРµРЅРёСЏ РЅР° РІРЅРµС€РЅРёР№ СЂРµРїРѕР·РёС‚РѕСЂРёР№. === git commit -am "modified new.xml" -> git push
+ 29. РЎРѕР·РґР°С‚СЊ С„Р°Р№Р» preferences.xml === vim preferences.xml
+ 30. Р’ С„Р°Р№Р» preferences.xml РґРѕР±Р°РІРёС‚СЊ РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ СЃРІРѕРёС… РїСЂРµРґРїРѕС‡С‚РµРЅРёСЏС… (Р›СЋР±РёРјС‹Р№ С„РёР»СЊРј, Р»СЋР±РёРјС‹Р№ СЃРµСЂРёР°Р», Р»СЋР±РёРјР°СЏ РµРґР°, Р»СЋР±РёРјРѕРµ РІСЂРµРјСЏ РіРѕРґР°, СЃС‚РѕСЂРѕРЅР° РєРѕС‚РѕСЂСѓСЋ С…РѕС‚РµР»Рё Р±С‹ РїРѕСЃРµС‚РёС‚СЊ) РІ С„РѕСЂРјР°С‚Рµ XML. ===
 
 <?xml version="1.0"?>
 <favoriteMovie>Lord of the Rings</favoriteMovie>
@@ -94,16 +94,16 @@ XML
 <countryYouWouldLikeToVisit>USA</countryYouWouldLikeToVisit>
 
 
- 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML === vim sklls.xml -> 
+ 31. РЎРѕР·РґР°С‚СЊ С„Р°Р№Р» sklls.xml РґРѕР±Р°РІРёС‚СЊ РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ СЃРєРёР»Р»Р°С… РєРѕС‚РѕСЂС‹Рµ Р±СѓРґСѓС‚ РёР·СѓС‡РµРЅС‹ РЅР° РєСѓСЂСЃРµ РІ С„РѕСЂРјР°С‚Рµ XML === vim sklls.xml -> 
 
 <?xml version="1.0"?>
 <skills>Git, JavaScript, SQL, API, testing theory</skills>
 
- 32. Сделать коммит в одну строку. === git commit -am "modified prefereces.xml, sklls.xml"
- 33. Отправить сразу 2 файла на внешний репозиторий. === git push
- 34. На веб интерфейсе создать файл bug_report.xml. === add file (https://github.com/victut/XML) -> Create new file -> XML/bug_report.xml
- 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе. === commit new file
- 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML. === "edit this file" https://github.com/victut/XML/edit/main/bug_report.xml ->
+ 32. РЎРґРµР»Р°С‚СЊ РєРѕРјРјРёС‚ РІ РѕРґРЅСѓ СЃС‚СЂРѕРєСѓ. === git commit -am "modified prefereces.xml, sklls.xml"
+ 33. РћС‚РїСЂР°РІРёС‚СЊ СЃСЂР°Р·Сѓ 2 С„Р°Р№Р»Р° РЅР° РІРЅРµС€РЅРёР№ СЂРµРїРѕР·РёС‚РѕСЂРёР№. === git push
+ 34. РќР° РІРµР± РёРЅС‚РµСЂС„РµР№СЃРµ СЃРѕР·РґР°С‚СЊ С„Р°Р№Р» bug_report.xml. === add file (https://github.com/victut/XML) -> Create new file -> XML/bug_report.xml
+ 35. РЎРґРµР»Р°С‚СЊ Commit changes (СЃРѕС…СЂР°РЅРёС‚СЊ) РёР·РјРµРЅРµРЅРёСЏ РЅР° РІРµР± РёРЅС‚РµСЂС„РµР№СЃРµ. === commit new file
+ 36. РќР° РІРµР± РёРЅС‚РµСЂС„РµР№СЃРµ РјРѕРґРёС„РёС†РёСЂРѕРІР°С‚СЊ С„Р°Р№Р» bug_report.xml, РґРѕР±Р°РІРёС‚СЊ Р±Р°Рі СЂРµРїРѕСЂС‚ РІ С„РѕСЂРјР°С‚Рµ XML. === "edit this file" https://github.com/victut/XML/edit/main/bug_report.xml ->
 
 <?xml version="1.0"?>
 
@@ -130,7 +130,10 @@ XML
 <Environment>Windows 7 x64 Google Chrome Version 96.0.4664.45, (64 bit)</Environment>
 
 
- 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе. === Commit changes
- 38. Синхронизировать внешний и локальный репозиторий XML === git pull
+ 37. РЎРґРµР»Р°С‚СЊ Commit changes (СЃРѕС…СЂР°РЅРёС‚СЊ) РёР·РјРµРЅРµРЅРёСЏ РЅР° РІРµР± РёРЅС‚РµСЂС„РµР№СЃРµ. === Commit changes
+ 38. РЎРёРЅС…СЂРѕРЅРёР·РёСЂРѕРІР°С‚СЊ РІРЅРµС€РЅРёР№ Рё Р»РѕРєР°Р»СЊРЅС‹Р№ СЂРµРїРѕР·РёС‚РѕСЂРёР№ XML === git pull
+
+
+
 
 
