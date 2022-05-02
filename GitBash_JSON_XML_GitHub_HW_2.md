@@ -12,14 +12,14 @@
  8. **Закоммитить файл.** === **``git commit -m "Create new.json"``**
  9. **Отправить файл на внешний GitHub репозиторий.** === **``git push``**
  10. **Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.** === vim new.json ->  
-    	{
-    	"firstName" : "Victoria",
-    	"lastName": "Tutaeva",
-    	"patronymic" : "Vasilevna",
-    	"age" : 33,
-    	"pet" : 0,
-    	"futureDesiredSalary" : "1500$"
-    	} 
+{
+	"firstName" : "Victoria",
+	"lastName": "Tutaeva",
+	"patronymic" : "Vasilevna",
+	"age" : 33,
+	"pet" : 0,
+	"futureDesiredSalary" : "1500$"
+} 
 
  11. Отправить изменения на внешний репозиторий. === git commit -am "modified new.json" -> git push
  12. Создать файл preferences.json === vim preferences.json 
