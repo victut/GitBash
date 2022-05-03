@@ -1,11 +1,12 @@
-TXT
- 1. Создать внешний репозиторий c названием TXT. === https://github.com/victut?tab=repositories -> New -> Repository name "TXT" -> Create repository
- 2. Клонировать репозиторий TXT на локальный компьютер. === git clone https://github.com/victut/TXT.git
- 3. Внутри локального TXT создать файл “new.txt”. === cd TXT/ -> vim new.txt
- 4. Добавить файл под гит. === git add new.txt
- 5. Закоммитить файл. === git commit -m "Create new.txt"
- 6. Отправить файл на внешний GitHub репозиторий. === git push
- 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT. === vim new.txt
+***TXT***
+
+ 1. ***РЎРѕР·РґР°С‚СЊ РІРЅРµС€РЅРёР№ СЂРµРїРѕР·РёС‚РѕСЂРёР№ c РЅР°Р·РІР°РЅРёРµРј TXT.*** === **``https://github.com/victut?tab=repositories -> New -> Repository name "TXT" -> Create repository``**
+ 2. ***РљР»РѕРЅРёСЂРѕРІР°С‚СЊ СЂРµРїРѕР·РёС‚РѕСЂРёР№ TXT РЅР° Р»РѕРєР°Р»СЊРЅС‹Р№ РєРѕРјРїСЊСЋС‚РµСЂ.*** === **``git clone https://github.com/victut/TXT.git``**
+ 3. ***Р’РЅСѓС‚СЂРё Р»РѕРєР°Р»СЊРЅРѕРіРѕ TXT СЃРѕР·РґР°С‚СЊ С„Р°Р№Р» вЂњnew.txtвЂќ.*** === **``cd TXT/ -> vim new.txt``**
+ 4. ***Р”РѕР±Р°РІРёС‚СЊ С„Р°Р№Р» РїРѕРґ РіРёС‚.*** === **``git add new.txt``**
+ 5. ***Р—Р°РєРѕРјРјРёС‚РёС‚СЊ С„Р°Р№Р».*** === **``git commit -m "Create new.txt"``**
+ 6. ***РћС‚РїСЂР°РІРёС‚СЊ С„Р°Р№Р» РЅР° РІРЅРµС€РЅРёР№ GitHub СЂРµРїРѕР·РёС‚РѕСЂРёР№.*** === **``git push``**
+ 7. ***РћС‚СЂРµРґР°РєС‚РёСЂРѕРІР°С‚СЊ СЃРѕРґРµСЂР¶Р°РЅРёРµ С„Р°Р№Р»Р° вЂњnew.txtвЂќ - РЅР°РїРёСЃР°С‚СЊ РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ СЃРµР±Рµ (Р¤РРћ, РІРѕР·СЂР°СЃС‚, РєРѕР»РёС‡РµСЃС‚РІРѕ РґРѕРјР°С€РЅРёС… Р¶РёРІРѕС‚РЅС‹С…, Р±СѓРґСѓС‰Р°СЏ Р¶РµР»Р°РµРјР°СЏ Р·Р°СЂРїР»Р°С‚Р°). Р’СЃС‘ РЅР°РїРёСЃР°С‚СЊ РІ С„РѕСЂРјР°С‚Рµ TXT.*** === **``vim new.txt``**
 
          1)firstName - Victoria
          2)lastName - Tutaeva
@@ -14,9 +15,9 @@ TXT
          5)pet - 0
          6)future desired salary - 1500$
 
- 8. Отправить изменения на внешний репозиторий. === git commit -am "modified new.txt" -> git push
- 9. Создать файл preferences.txt === vim preferences.txt
- 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+ 8. ***РћС‚РїСЂР°РІРёС‚СЊ РёР·РјРµРЅРµРЅРёСЏ РЅР° РІРЅРµС€РЅРёР№ СЂРµРїРѕР·РёС‚РѕСЂРёР№.*** === **``git commit -am "modified new.txt" -> git push``**
+ 9. ***РЎРѕР·РґР°С‚СЊ С„Р°Р№Р» preferences.txt*** === **``vim preferences.txt``**
+ 10. ***Р’ С„Р°Р№Р» preferences.txtвЂќ РґРѕР±Р°РІРёС‚СЊ РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ СЃРІРѕРёС… РїСЂРµРґРїРѕС‡С‚РµРЅРёСЏС… (Р›СЋР±РёРјС‹Р№ С„РёР»СЊРј, Р»СЋР±РёРјС‹Р№ СЃРµСЂРёР°Р», Р»СЋР±РёРјР°СЏ РµРґР°, Р»СЋР±РёРјРѕРµ РІСЂРµРјСЏ РіРѕРґР°, СЃС‚РѕСЂРѕРЅР° РєРѕС‚РѕСЂСѓСЋ С…РѕС‚РµР»Рё Р±С‹ РїРѕСЃРµС‚РёС‚СЊ) РІ С„РѕСЂРјР°С‚Рµ TXT.***
 
          1)favorite movie - Lord of the Rings
          2)favorite series - Suits
@@ -24,33 +25,26 @@ TXT
          4)favorite season - Spring
          5)country you would like to visit - USA
 
- 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT === vim sklls.txt ->
+ 11. ***РЎРѕР·РґР°С‚СЊ С„Р°Р№Р» sklls.txt РґРѕР±Р°РІРёС‚СЊ РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ СЃРєРёР»Р»Р°С… РєРѕС‚РѕСЂС‹Рµ Р±СѓРґСѓС‚ РёР·СѓС‡РµРЅС‹ РЅР° РєСѓСЂСЃРµ РІ С„РѕСЂРјР°С‚Рµ TXT === vim sklls.txt*** ->
 
          skills - Git, JavaScript, SQL, API, testing theory
 
- 12. Сделать коммит в одну строку. === git commit -am "modified preferences.txt, sklls.txt" 
- 13. Отправить сразу 2 файла на внешний репозиторий. === git push
- 14. На веб интерфейсе создать файл bug_report.txt. === add file (https://github.com/victut/TXT) -> Create new file -> TXT/bug_report.txt
- 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе. === commit new file
- 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT. === "edit this file" https://github.com/victut/TXT/edit/main/bug_report.txt
+ 12. ***РЎРґРµР»Р°С‚СЊ РєРѕРјРјРёС‚ РІ РѕРґРЅСѓ СЃС‚СЂРѕРєСѓ.*** === **``git commit -am "modified preferences.txt, sklls.txt"``** 
+ 13. ***РћС‚РїСЂР°РІРёС‚СЊ СЃСЂР°Р·Сѓ 2 С„Р°Р№Р»Р° РЅР° РІРЅРµС€РЅРёР№ СЂРµРїРѕР·РёС‚РѕСЂРёР№.*** === **``git push``**
+ 14. ***РќР° РІРµР± РёРЅС‚РµСЂС„РµР№СЃРµ СЃРѕР·РґР°С‚СЊ С„Р°Р№Р» bug_report.txt.*** === **``add file (https://github.com/victut/TXT) -> Create new file -> TXT/bug_report.txt``**
+ 15. ***РЎРґРµР»Р°С‚СЊ Commit changes (СЃРѕС…СЂР°РЅРёС‚СЊ) РёР·РјРµРЅРµРЅРёСЏ РЅР° РІРµР± РёРЅС‚РµСЂС„РµР№СЃРµ.*** === **``commit new file``**
+ 16. ***РќР° РІРµР± РёРЅС‚РµСЂС„РµР№СЃРµ РјРѕРґРёС„РёС†РёСЂРѕРІР°С‚СЊ С„Р°Р№Р» bug_report.txt, РґРѕР±Р°РІРёС‚СЊ Р±Р°Рі СЂРµРїРѕСЂС‚ РІ С„РѕСЂРјР°С‚Рµ TXT.*** === **``"edit this file" https://github.com/victut/TXT/edit/main/bug_report.txt``**
 
           1) ID : 1
-
           2) Summary : When clicking on the 'Update' button, the product is not added to the minicart from the product page
-
           3) Step to reproduce : Open the website page: http://astrio-spa.dev-mage3.com/venia-accessories.html Open the product card. Add item to cart
-
           4) Result : A pop-up window does NOT appear stating that the item has been added to the cart. The cart counter has NOT increased by the number of items added to the cart. There is no item in the cart
-
           5) Expected result : A pop-up window appears stating that the product has been added to the cart. The cart counter has increased by the number of items added to the cart. The item has been added to the cart
-
           6) Reproducibility : Not on all product pages
-          
-7) Severity : Critical
-          
-8) Priority : High(1)
-
+          7) Severity : Critical
+          8) Priority : High(1)
           9) Environment : Windows 7 x64 Google Chrome Version 96.0.4664.45, (64 bit)
 
- 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. === Commit changes
- 18. Синхронизировать внешний и локальный репозиторий TXT === git pull
+ 17. ***РЎРґРµР»Р°С‚СЊ Commit changes (СЃРѕС…СЂР°РЅРёС‚СЊ) РёР·РјРµРЅРµРЅРёСЏ РЅР° РІРµР± РёРЅС‚РµСЂС„РµР№СЃРµ.*** === **``Commit changes``**
+ 18. ***РЎРёРЅС…СЂРѕРЅРёР·РёСЂРѕРІР°С‚СЊ РІРЅРµС€РЅРёР№ Рё Р»РѕРєР°Р»СЊРЅС‹Р№ СЂРµРїРѕР·РёС‚РѕСЂРёР№ TXT*** === **``git pull``**
+ 
