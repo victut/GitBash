@@ -7,11 +7,11 @@
 
  4. ***Создать внешний репозиторий c названием JSON.*** === **``https://github.com/victut?tab=repositories -> New -> Repository name "JSON" -> Create repository``**
  5. ***Клонировать репозиторий JSON на локальный компьютер.*** === **``git clone https://github.com/victut/JSON.git``**
- 6. ***Внутри локального JSON создать файл “new.json”.*** === **``cd JSON/ -> vim new.json``**  
+ 6. ***Внутри локального JSON создать файл “new.json”.*** === **``cd JSON/ -> vim new.json -> esc -> :wq -> enter``**  
  7. ***Добавить файл под гит.*** === **``git add new.json``**
  8. ***Закоммитить файл.*** === **``git commit -m "Create new.json"``**
  9. ***Отправить файл на внешний GitHub репозиторий.*** === **``git push``**
- 10. ***Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.*** === **``vim new.json``** ->  
+ 10. ***Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.*** === **``vim new.json -> esc -> :wq -> enter``** ->  
 	
 	{"firstName" : "Victoria",
 	"lastName": "Tutaeva",
@@ -30,17 +30,20 @@
 	"favoriteSeason" : "Spring",
 	"countryYouWouldLikeToVisit" : "USA"}
 
-
+ **``-> esc -> :wq -> enter``**
+ 
  14. ***Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON*** === **``vim sklls.json``** ->
 
-	"skills" : ["Git", "JavaScript", "SQL", "API", "testing theory" ]
+	{"skills" : ["Git", "JavaScript", "SQL", "API", "testing theory" ]}
+
+**``-> esc -> :wq -> enter``**
 
  15. ***Отправить сразу 2 файла на внешний репозиторий.*** === **``git add . -> git commit -m "Created preferences.json, sklls.json" ->  git push``**
  16. ***На веб интерфейсе создать файл bug_report.json.*** === **``add file (https://github.com/victut/JSON) -> Create new file -> JSON/bug_report.json``**
  17. ***Сделать Commit changes (сохранить) изменения на веб интерфейсе.*** === **``commit new file``**
  18. ***На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.*** === **``"edit this file" https://github.com/victut/JSON/blob/main/bug_report.json``** -> 
 
-	{"ID" : 1
+	{"ID" : 1,
 	"Summary" : "When clicking on the 'Update' button, the product is not added to the minicart from the product page", 
 	"StepToReproduce" : "Open the website page: http://astrio-spa.dev-mage3.com/venia-accessories.html Open the product card. Add item to cart",
 	"Result" : "A pop-up window does NOT appear stating that the item has been added to the cart. The cart counter has NOT increased by the number of items added 	to the cart. There is no item in the cart",
@@ -57,11 +60,11 @@
 
  21. ***Создать внешний репозиторий c названием XML.*** === **``https://github.com/victut?tab=repositories -> New -> Repository name "XML" -> Create repository``**
  22. ***Клонировать репозиторий XML на локальный компьютер.*** === **``git clone https://github.com/victut/XML.git``**
- 23. ***Внутри локального XML создать файл “new.xml”.*** === **``cd XML/ ->  vim new.xml``**
+ 23. ***Внутри локального XML создать файл “new.xml”.*** === **``cd XML/ ->  vim new.xml -> esc -> :wq -> enter``**
  24. ***Добавить файл под гит.*** === **``git add new.xml``**
  25. ***Закоммитить файл.*** ===  **``git commit -m "Created new.xml"``**
  26. ***Отправить файл на внешний GitHub репозиторий.*** === **``git push``**
- 27. ***Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.*** === **``vim new.xml``**
+ 27. ***Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.*** === **``vim new.xml -> esc -> :wq -> enter``**
 
 	<?xml version="1.0"?>
 	<firstName>Victoria</firstName>
@@ -82,11 +85,14 @@
 	<favoriteSeason>Spring</favoriteSeason>
 	<countryYouWouldLikeToVisit>USA</countryYouWouldLikeToVisit>
 
+**``-> esc -> :wq -> enter``**
 
  31. ***Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML*** === **``vim sklls.xml``** -> 
 
 	<?xml version="1.0"?>
 	<skills>Git, JavaScript, SQL, API, testing theory</skills>
+	
+**``-> esc -> :wq -> enter``**	
 
  32. ***Сделать коммит в одну строку.*** === **``git commit -am "modified prefereces.xml, sklls.xml"``**
  33. ***Отправить сразу 2 файла на внешний репозиторий.*** === **``git push``**
