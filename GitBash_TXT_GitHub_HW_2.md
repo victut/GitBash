@@ -35,7 +35,7 @@
 
 **``esc -> :wq -> enter``**
 
- 12. ***Сделать коммит в одну строку.*** === **``git commit -am "modified preferences.txt, sklls.txt"``** 
+ 12. ***Сделать коммит в одну строку.*** === **``git add . | git commit -m "modified preferences.txt, sklls.txt"``** 
  13. ***Отправить сразу 2 файла на внешний репозиторий.*** === **``git push``**
  14. ***На веб интерфейсе создать файл bug_report.txt.*** === **``add file (https://github.com/victut/TXT) -> Create new file -> TXT/bug_report.txt``**
  15. ***Сделать Commit changes (сохранить) изменения на веб интерфейсе.*** === **``commit new file``**
