@@ -102,7 +102,7 @@
 	
 **``-> esc -> :wq -> enter``**	
 
- 32. ***Сделать коммит в одну строку.*** === **``git commit -am "modified prefereces.xml, sklls.xml"``**
+ 32. ***Сделать коммит в одну строку.*** === **``git add . | git commit -m "modified prefereces.xml, sklls.xml"``**
  33. ***Отправить сразу 2 файла на внешний репозиторий.*** === **``git push``**
  34. ***На веб интерфейсе создать файл bug_report.xml.*** === **``add file (https://github.com/victut/XML) -> Create new file -> XML/bug_report.xml``**
  35. ***Сделать Commit changes (сохранить) изменения на веб интерфейсе.*** === **``commit new file``**
