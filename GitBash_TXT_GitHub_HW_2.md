@@ -2,7 +2,7 @@
 
  1. ***Создать внешний репозиторий c названием TXT.*** === **``https://github.com/victut?tab=repositories -> New -> Repository name "TXT" -> Create repository``**
  2. ***Клонировать репозиторий TXT на локальный компьютер.*** === **``git clone https://github.com/victut/TXT.git``**
- 3. ***Внутри локального TXT создать файл “new.txt”.*** === **``cd TXT/ -> vim new.txt``**
+ 3. ***Внутри локального TXT создать файл “new.txt”.*** === **``cd TXT/ -> vim new.txt -> esc -> :wq -> enter``**
  4. ***Добавить файл под гит.*** === **``git add new.txt``**
  5. ***Закоммитить файл.*** === **``git commit -m "Create new.txt"``**
  6. ***Отправить файл на внешний GitHub репозиторий.*** === **``git push``**
@@ -15,6 +15,8 @@
          5)pet - 0
          6)future desired salary - 1500$
 
+**``esc -> :wq -> enter``**
+
  8. ***Отправить изменения на внешний репозиторий.*** === **``git commit -am "modified new.txt" -> git push``**
  9. ***Создать файл preferences.txt*** === **``vim preferences.txt``**
  10. ***В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.***
@@ -24,10 +26,14 @@
          3)favorite food - ice cream
          4)favorite season - Spring
          5)country you would like to visit - USA
+ 
+ **``esc -> :wq -> enter``**
 
  11. ***Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT === vim sklls.txt*** ->
 
          skills - Git, JavaScript, SQL, API, testing theory
+
+**``esc -> :wq -> enter``**
 
  12. ***Сделать коммит в одну строку.*** === **``git commit -am "modified preferences.txt, sklls.txt"``** 
  13. ***Отправить сразу 2 файла на внешний репозиторий.*** === **``git push``**
